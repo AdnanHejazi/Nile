@@ -1,10 +1,10 @@
+// Connecting Database to Your project using Mongo URI
+
 import mongoose from 'mongoose'
 
-
-const connectDB = async () =>{
-    // MONGO_URII = process.env.MONGO_URI.toString()
+const connectDB = async () =>{ 
     try {
-        const conn = await mongoose.connect("mongodb+srv://adnan3105:adnan4141@mohammadadnan.rsd6w.mongodb.net/Nile?retryWrites=true&w=majority", {
+        const conn = await mongoose.connect(process.env.MONGO_URI, {
 
             useUnifiedTopology: true,
             useNewUrlParser: true,
