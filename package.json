@@ -15,7 +15,6 @@
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
-
   },
   "author": "Adnan Hejazi",
   "license": "ISC",
@@ -37,5 +36,13 @@
   "devDependencies": {
     "concurrently": "^6.2.2",
     "nodemon": "^2.0.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdnanHejazi/Nile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdnanHejazi/Nile/issues"
+  },
+  "homepage": "https://github.com/AdnanHejazi/Nile#readme"
 }
