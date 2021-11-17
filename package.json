@@ -2,6 +2,9 @@
   "name": "nile",
   "version": "1.0.0",
   "description": "MERN e-comm app",
+  "engines": {
+    "node": "v15.9.0"
+  },
   "main": "server.js",
   "type": "module",
   "scripts": {
